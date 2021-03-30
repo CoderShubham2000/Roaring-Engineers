@@ -205,7 +205,7 @@ void loop() {
       servo3.write(servo3PosSave[i]);
       servo4.write(servo4PosSave[i]);
       myOLED.clrScr();
-      myOLED.print("MERT ARDUINO AND TECH", CENTER, 8);
+      myOLED.print("Roaring Engineers", CENTER, 8);
       myOLED.print("MOVING...", CENTER, 42);
       myOLED.update();
       delay(2000);
